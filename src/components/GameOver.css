@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,100;1,300&family=Permanent+Marker&family=Rubik+Doodle+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Lato:ital,wght@0,300;0,400;1,100;1,300&family=Permanent+Marker&family=Rubik+Doodle+Shadow&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Lato:ital,wght@0,300;0,400;1,100;1,300&family=Permanent+Marker&family=Rubik+Doodle+Shadow&family=Russo+One&display=swap');
+
+.GameOver_div{
+  border: 2px solid grey;
+  background-color: aquamarine;
+  height: auto;
+  width: auto;
+  padding: 30px;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: 6px 6px 6px 6px gray;
+  row-gap: 5vh;
+}
+.GameOver_Phrase{
+  font-family: 'Russo One',sans-serif;
+  font-size: 25px;
+  
+
+}
+.Game_over_Yourscore{
+
+  font-size: 50px;
+  margin-left:40%;
+  padding-bottom: 5vh;
+  color: grey;
+  /* margin-top: 0vh; */
+  font-family: 'Rubik Doodle Shadow',sans-serif;
+  color: black;
+
+}
+
+/* ScorePage.css */
+.GamePage_BodyDiv {
+  width: 100vw;
+  height: 100vh;
+  transition: background-color 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.light-theme {
+  background-color: #add8e6; /* Light Blue */
+  color: #000000;
+}
+
+.dark-theme {
+  background-color: #00ced1; /* Dark Turquoise */
+  color: #ffffff;
+}
+
+.Game_over_Yourscore {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.toggle-container {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.toggle {
+  width: 40px;
+  height: 20px;
+  background-color: #108fe4; /* Default color */
+  border-radius: 20px;
+  position: relative;
+  transition: background-color 0.3s;
+}
+
+.toggle.dark {
+  background-color: #390909; /* Dark mode color */
+}
+
+/* Add any additional styling as needed */
+/* GameOver.css */
+/* Add your existing styles here */
+
+.GamePage_BodyDiv .home-btn {
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #3498db;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.GamePage_BodyDiv .home-btn:hover {
+  color: #e74c3c; /* Contrasting color */
+}
